@@ -240,7 +240,8 @@ body {
   }
 
   .services {
-    padding: 4rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
 
     h1 {
       font-family: "Stack Sans Headline", sans-serif;
@@ -251,30 +252,26 @@ body {
     }
 
     .services-1 {
+      flex: 0 0 auto;
       display: flex;
 
       .braces {
-        margin-left: 14rem;
-
         img {
           border-radius: 50px;
-          width: 20.8rem;
+          width: 19.8rem;
         }
 
         h3 {
           font-family: "Google Sans Flex", sans-serif;
-          margin-left: 4rem;
           color: var(--font-clr-light);
           font-weight: 500;
         }
       }
 
       .teeth {
-        margin-left: 3rem;
-
         img {
           border-radius: 50px;
-          width: 19rem;
+          width: 18rem;
         }
 
         h3 {
@@ -286,11 +283,9 @@ body {
       }
 
       .pros {
-        margin-left: 3rem;
-
         img {
           border-radius: 50px;
-          width: 19rem;
+          width: 18rem;
         }
 
         h3 {
@@ -300,18 +295,10 @@ body {
           font-weight: 500;
         }
       }
-    }
-
-    .service-2 {
-      display: flex;
-      margin-top: 1rem;
-
       .scale {
-        margin-left: 14rem;
-
         img {
           border-radius: 50px;
-          width: 20rem;
+          width: 19rem;
         }
 
         h3 {
@@ -323,11 +310,9 @@ body {
       }
 
       .extra {
-        margin-left: 2rem;
-
         img {
           border-radius: 50px;
-          width: 20rem;
+          width: 19rem;
         }
 
         h3 {
@@ -339,11 +324,9 @@ body {
       }
 
       .con {
-        margin-left: 2rem;
-
         img {
           border-radius: 50px;
-          width: 20rem;
+          width: 19rem;
         }
 
         h3 {
