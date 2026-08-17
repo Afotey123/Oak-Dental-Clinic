@@ -240,8 +240,7 @@ body {
   }
 
   .services {
-    padding-top: 5rem;
-    margin-bottom: 5rem;
+    padding: 4rem;
 
     h1 {
       font-family: "Stack Sans Headline", sans-serif;
@@ -252,26 +251,30 @@ body {
     }
 
     .services-1 {
-      flex: 0 0 auto;
       display: flex;
 
       .braces {
+        margin-left: 14rem;
+
         img {
           border-radius: 50px;
-          width: 19.8rem;
+          width: 20rem;
         }
 
         h3 {
           font-family: "Google Sans Flex", sans-serif;
+          margin-left: 4rem;
           color: var(--font-clr-light);
           font-weight: 500;
         }
       }
 
       .teeth {
+        margin-left: 3rem;
+
         img {
           border-radius: 50px;
-          width: 18rem;
+          width: 19rem;
         }
 
         h3 {
@@ -283,9 +286,11 @@ body {
       }
 
       .pros {
+        margin-left: 3rem;
+
         img {
           border-radius: 50px;
-          width: 18rem;
+          width: 19rem;
         }
 
         h3 {
@@ -295,10 +300,18 @@ body {
           font-weight: 500;
         }
       }
+    }
+
+    .service-2 {
+      display: flex;
+      margin-top: 1rem;
+
       .scale {
+        margin-left: 14rem;
+
         img {
           border-radius: 50px;
-          width: 19rem;
+          width: 20rem;
         }
 
         h3 {
@@ -310,9 +323,11 @@ body {
       }
 
       .extra {
+        margin-left: 2rem;
+
         img {
           border-radius: 50px;
-          width: 19rem;
+          width: 20rem;
         }
 
         h3 {
@@ -324,9 +339,11 @@ body {
       }
 
       .con {
+        margin-left: 2rem;
+
         img {
           border-radius: 50px;
-          width: 19rem;
+          width: 20rem;
         }
 
         h3 {
@@ -339,27 +356,33 @@ body {
     }
   }
 
-  .orange {
-    border: 2px solid var(--border-orange);
-  }
-
-  .gallery {
+  .appointment {
     background-color: var(--oak-orange);
-    padding-top: 1rem;
+    padding: 2rem;
+    padding-left: 10rem;
 
     h1 {
-      text-align: center;
-      font-family: "Stack Sans Headline", sans-serif;
-      color: var(--bg);
-      margin-bottom: 2rem;
-      text-decoration: underline;
+      font-family: "Poppins", sans-serif;
     }
 
-    .img-1 {
-      margin-left: 10rem;
+    form {
+      .form1 {
+        label {
+          font-family: "Stack Sans Headline", sans-serif;
+          font-size: 1.5rem;
+        }
 
-      img {
-        border-radius: 10px;
+        input {
+          width: 30rem;
+          padding: 0.5rem;
+          border: 2px solid var(--font-clr-bold);
+          border-radius: 5px;
+          margin-bottom: 1.2rem;
+
+          input::placeholder {
+            font-family: "Poppins", sans-serif;
+          }
+        }
       }
     }
   }
